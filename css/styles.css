@@ -1,0 +1,272 @@
+/* global --------------------------------------------------*/
+:root {
+  --basic-text: #212121;
+  --secondary-text: #757575;
+  --accent: #2196f3;
+  --accent-hover: #188ce8;
+  --bgc: #f5f4fa;
+  --bgc-dark: #2f303a;
+  --half-tone: rgba(255, 255, 255, 0.6);
+  --shadow: rgba(0, 0, 0, 0.15);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  background-color: white;
+  color: var(--basic-text);
+  letter-spacing: 0.03em;
+}
+
+.link {
+  font-style: normal;
+  text-decoration: none;
+  /* color: var(--basic-text); */
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* global-header ------------------------------------------*/
+.page-header {
+  /* width: 1600px;
+  height: 80px; */
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: black;
+}
+
+.logo-color {
+  color: var(--accent);
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--basic-text);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent);
+}
+
+.address-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent);
+}
+
+/* global-footer -----------------------------------------*/
+.bottom {
+  background-color: var(--bgc-dark);
+}
+
+.logo-bottom {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: white;
+}
+
+.contacts {
+}
+
+.contacts-adr {
+  line-height: 1.71;
+  color: white;
+}
+
+.contacts-adr:hover,
+.contacts-adr:focus {
+  color: var(--accent);
+}
+
+.contacts-link {
+  line-height: 1.71;
+  color: var(--half-tone);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent);
+}
+
+/* main-index ----------------------------------------------*/
+/*-------------- hero */
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: white;
+
+  background-color: var(--bgc-dark);
+  height: 600px;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: white;
+
+  background: var(--accent);
+  box-shadow: 0px 4px 4px var(--shadow);
+  border-radius: 4px;
+  border: none;
+
+  width: 200px;
+  height: 50px;
+}
+
+.hero-button:hover {
+  background-color: var(--accent-hover);
+}
+
+.hero-button:hover {
+  cursor: pointer;
+}
+
+/* ---------features */
+.features-list {
+}
+
+.features-title {
+}
+
+.features-item-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-item-text {
+  line-height: 1.71;
+  color: var(--secondary-text);
+}
+
+/* -------operation */
+.operation-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.operation-list {
+}
+
+/* ---------team */
+.team {
+  background-color: var(--bgc);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team-list {
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text);
+}
+
+/* main-portfolio----------------------------------------- */
+/* --------------projects */
+
+.projects {
+}
+
+.projects-title {
+}
+
+.project-img {
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--basic-text);
+}
+
+.project-caption {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text);
+}
+
+/*------------- buttons */
+.buttons-block {
+}
+
+.buttons {
+  height: 38px;
+  background: var(--bgc);
+  border-radius: 4px;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  background: var(--accent);
+  color: white;
+}
+.buttons:focus {
+  background: var(--accent);
+  color: white;
+}
